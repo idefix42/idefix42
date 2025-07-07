@@ -1,38 +1,68 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=0.5">
+        <title>idefix42 - Pet homesitter dans la vallée de l'ondaine</title>
+        <meta name="description" content="Visites à domicile pour chiens et chats dans la vallée de l'Ondaine : promenades, nourriture et présence pendant vos vacances, hospitalisations ou déplacements. Partez l'esprit tranquille !" />
         <link rel="stylesheet" href="styles.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans+Hebrew:wght@100..800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&family=Simonetta:ital,wght@0,400;0,900;1,400;1,900&display=swap" rel="stylesheet">
     </head>
     <body>
         <div class="topwaves"></div>
         <div class="waves"></div>
-        <div class="main">
-            <div class="header">
-                <h1>IDEFIX42</h1>
+        <div class="main flex-col">
+            <div class="header flex-row">
+                <h1 class="title">IDEFIX42</h1>
                 <img src="img/catndog.webp" width="200px">
             </div>
-            <div class="title">
+            <div class="title flex-row">
                 <img src="img/dog-paw.svg" width="50px" style="rotate: -30deg;">
-                <h2>MICHEL PICQ<br>PETHOMESITTER</h2>
+                <div class="flex-col">
+                    <h2>MICHEL PICQ</h2>
+                    <h2>PET HOMESITTER</h2>
+                </div>
                 <img src="img/dog-paw.svg" width="50px" style="rotate: 40deg;">
             </div>
-            <p>Je rends visite à vos animaux de compagnie (chiens et chats) à votre domicile dans la vallée de l'Ondaine. (Je les nourris, je les promène, etc...)</p>
-            <div class="pictures">
-                <img src="img/dog.png" height="400px">
-                <img src="img/cat.png" height="400px">
+            <div class="qualification">
+                <h3 class="text-align-right">Diplôme d’état</h3>
+                <div class="separator"></div>
+                <h3>Diplômes de la <br>société centrale canine</h3>
             </div>
-            <p>Pendant vos vacances, vos hospitalisations, vos cures, vos déplacements</p>
-            <div class="footer">
-                <img src="img/biscuits.webp" width="150px">
+            <p>Je rends visite à vos animaux de compagnie (chiens et chats) à votre domicile dans <span class="important">la vallée de l'Ondaine</span>. (Je les nourris, je les promène, etc...)</p>
+            <div class="pictures flex-row">
+                <img src="img/dog.png">
+                <img src="img/cat.png">
+            </div>
+            <p>Pendant vos vacances, vos hospitalisations, vos cures, vos déplacements... <span class="important">Partez tranquille !</span></p>
+            <div class="footer flex-row">
+                <img src="img/biscuits.webp" class="biscuits">
                 <div>
-                    <p class="tel">Téléphone: 06 16 39 59 57<br>04 69 35 59 62</p>
-                    <p class="tel">Mail: mp.idefix42@gmail.com</p>
+                    <table class="contact">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <p>Téléphone:</p>
+                                </td>
+                                <td>
+                                    <p>06 16 39 59 57</p>
+                                    <p>04 69 35 59 62</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>Mail:</p>
+                                </td>
+                                <td>
+                                    <p>mp.idefix42@gmail.com</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
-                <img src="img/biscuits.webp" width="150px">
+                <img src="img/biscuits.webp" class="biscuits">
             </div>
         </div>
     </body>
