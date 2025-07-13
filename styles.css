@@ -156,6 +156,10 @@ h1, h2, h3, p {
     font-style: normal;
 }
 
+a {
+    color: inherit;
+}
+
 h1.title {
     font-family: "Simonetta", serif;
     font-weight: 900;
